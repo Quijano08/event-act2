@@ -1,0 +1,20 @@
+
+.gallery__container {
+  padding: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

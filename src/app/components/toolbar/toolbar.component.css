@@ -1,0 +1,34 @@
+
+.toolbar__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 20px;
+  align-items: center;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.hamMenu {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-gap: 20px;
+}
+
+.hamMenu .btn {
+  cursor: pointer;
+  transition: all .3s ease;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  border: 2px solid #fafafa;
+}
+
+.hamMenu .btn:hover {
+  background: purple;
+  color: #fff;
+}

@@ -1,0 +1,94 @@
+
+.home__container {
+  padding: 40px;
+}
+
+.portfolio__container {
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.portfolio__container .sections {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-gap: 40px;
+}
+
+.portfolio__container .sections .img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__container .sections .img__container img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.personalInformation__container {
+  background: teal;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  border-radius: 12px;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgBg {
+  opacity: 0.1;
+  position: absolute;
+  right: -160px;
+  bottom: -80px;
+  width: 100%;
+  height: auto;
+}
+
+.details__container {
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.details__container .box {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.details__container .options__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: -90px;
+}
+
+.dl_cv {
+  background-color: purple;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.details__container .options__container .logos {
+  display: flex;
+  align-items: center;
+}
+
+.details__container .options__container .logos img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+
+.details__container .box .label {
+  margin-right: 10px;
+  font-size: 20px;
+}
